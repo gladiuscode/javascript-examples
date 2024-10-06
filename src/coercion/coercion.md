@@ -65,3 +65,24 @@ The falsy map is as follow:
 - NaN
 - false
 - undefined
+
+## Boxing
+
+In javascript we can use methods on primitive values,
+this is weird, why? They aren't object right?
+
+Well, they aren't, but Javascript implicitly coerce them
+to object, so that we can use methods on them dynamically.
+
+## Tips
+
+Coercion isn't evil, it's a tool that we can use or used by,
+the choice is yours.
+
+Since coercion will happen, whether we like it or not,
+we must ensure we understand its quirks and keep it under
+control.
+How? By writing clean programs that are modular and use
+functions that aren't too polymorphic.
+
+Dynamic typing isn't evil, it's a tool like coercion.
