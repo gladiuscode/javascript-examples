@@ -30,3 +30,9 @@ console.log(typeof v);
 v = null;
 // Prints "object"
 console.log(typeof v);
+
+// If we run typeof with a variable that doesn't
+// exists, it returns us undefined
+console.log(typeof f);
+
+// So we don't have an "undeclared" type
