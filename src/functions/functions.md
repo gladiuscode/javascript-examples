@@ -55,3 +55,15 @@ declarations are attached to the current scope,
 so variables are usable but undefined, while
 functions declarations are callable and reference
 their body.
+
+## IIFE Pattern
+
+Since in Javascript we can wrap expressions in parenthesis,
+Javascript allows us to declare a function expression that
+can be immediately executed and that we can use to
+encapsulate code to mask it to the outside scope. 
+Any function wrapped in () is not bound to the parent scope,
+it runs once and then its gone.
+
+They can be used anytime we need a statement in an expression
+position, such as with try / catch or other statements as well.
