@@ -36,8 +36,14 @@ the required scopes, each function gets
 its own scope, as well as all blocks with
 let and const declared inside of them.
 
-So all identifiers get bounded to their
-scope and registered.
+Key difference to know about functions
+is: function declarations are attached
+to the parent scope, while function
+expressions are attached to their own
+scope. This is why we can't use the
+function express name in the same
+parent scope, we need to call the
+variable that hold its reference.
 
 ## Runtime pass
 
