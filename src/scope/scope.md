@@ -65,6 +65,24 @@ a value or retrieve from memory and used.
 > Blocks are not scope until they have
 > let or const declared inside.
 
+## Temporal Dead Zone
+
+We refer to it as a Reference Error
+that we encounter when we try to access
+a let or const before their declaration.
+
+Let and const behave differently than
+vars, vars are declared and initialized
+to undefined, this is why we can use
+them before their declaration, while
+let and const do not.
+
+In fact, this let and const behavior
+was introduced to prevent people
+from declaring a const variable and
+then assigning to it a value before
+its declaration.
+
 ## Corner case
 
 During compilation, when Javascript
