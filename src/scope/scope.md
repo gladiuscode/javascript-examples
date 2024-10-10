@@ -60,6 +60,11 @@ They can either be used as targets or
 sources, meaning: stored in memory with
 a value or retrieve from memory and used.
 
+## Block scope
+
+> Blocks are not scope until they have
+> let or const declared inside.
+
 ## Corner case
 
 During compilation, when Javascript
